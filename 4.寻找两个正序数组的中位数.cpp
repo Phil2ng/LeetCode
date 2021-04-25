@@ -1,7 +1,7 @@
 /*
  * @lc app=leetcode.cn id=4 lang=cpp
  *
- * 二分查找，双指针
+ * k-th --二分查找，双指针
  * 时间复杂度为 O(log (m+n)) 
  * 
  * [4] 寻找两个正序数组的中位数
