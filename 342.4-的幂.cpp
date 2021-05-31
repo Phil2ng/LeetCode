@@ -10,7 +10,7 @@ class Solution
 public:
     bool isPowerOfFour(int n)
     {
-        return n > 0 && !(n & (n - 1)) && (n & 1431655765);
+        return n > 0 && !(n & (n - 1)) && (n & 0x55555555);
     }
 };
 // @lc code=end
