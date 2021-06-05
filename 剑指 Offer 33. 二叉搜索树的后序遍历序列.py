@@ -1,4 +1,4 @@
-# bst性质, 辅助单调栈
+# BST二叉搜索树的性质, 辅助单调栈
 # 递归
 
 class Solution:
