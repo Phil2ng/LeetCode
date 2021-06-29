@@ -13,10 +13,16 @@ public:
         string ans;
         while (columnNumber)
         {
-            int c = (columnNumber % 26 - 1 + 26) % 26;
-            ans = (char)(c + 'A') + ans;
-            columnNumber = (columnNumber - c) / 26;
+            --columnNumber;
+            ans = char('A' + (columnNumber % 26)) + ans;
+            columnNumber /= 26;
         }
+        // while (columnNumber)
+        // {
+        //     int c = (columnNumber % 26 - 1 + 26) % 26;
+        //     ans = (char)(c + 'A') + ans;
+        //     columnNumber = (columnNumber - c) / 26;
+        // }
         return ans;
     }
 };
