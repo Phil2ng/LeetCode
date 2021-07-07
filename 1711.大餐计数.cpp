@@ -1,6 +1,8 @@
 /*
  * @lc app=leetcode.cn id=1711 lang=cpp
  *
+ * 哈希表
+ * 
  * [1711] 大餐计数
  */
 
