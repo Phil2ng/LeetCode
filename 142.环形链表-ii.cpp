@@ -1,4 +1,6 @@
 /*
+ * @lc app=leetcode.cn id=142 lang=cpp
+ *
  * 快慢指针遍历
  * 
  * [142] 环形链表 II
